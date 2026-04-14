@@ -1,0 +1,136 @@
+@import 'container.css';
+@import 'base.css';
+
+.header {
+    background-color: rgb(162,54,69);
+    padding: 0px;
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav-list {
+    display: flex;
+    gap: 25px;
+    font-size: 20px;
+}
+
+.header-wrapper a {
+    color: white;
+}
+
+.nav-list a {
+    display: flex;
+    align-items: center;
+    padding: 20px 25px;
+}
+
+.nav-list a:hover {
+    background-color: rgb(145,47,60);
+}
+
+.image-wrapper {
+    display: inline-block;
+    background-color: rgb(231,231,231);
+    padding: 20px;
+    position: sticky;
+    top: 20px;
+    float: right;
+}
+
+.image-lists-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.image-lists-wrapper ul{
+    font-size: 14px;
+}
+
+.titles-list li, .text-list li{
+    margin-top: 15px;
+}
+
+.text-list-second li{
+    margin-top: 0;
+}
+
+.text-list-second {
+    margin-top: 25px;
+}
+
+.title-list-second-top-element{
+    display: inline-block;
+    margin-top: 30px;
+}
+
+hr {
+    width: 580px;
+    margin-top: 20px;
+}
+
+.title {
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+.subtitle {
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.main-text {
+    margin-top: 20px;
+    width: 600px;
+}
+
+.footer-title {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.footer-list {
+    display: flex;
+    gap: 25px;
+    border: 1px gray solid;
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 900px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 330;
+}
+
+.footer-list img{
+    width: 120px;
+    height: 150px;
+    object-fit: cover;
+    transition: transform 0.2s ease-in-out;
+}
+
+.footer-list h3 {
+    width: 120px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 10px;
+    color: black;
+    transition: transform 0.2s ease-in-out;
+}
+
+.footer-list a:hover img {
+    transform: scale(1.1);
+}
+
+.footer-list a:hover h3 {
+    transform: scale(1.1);
+}

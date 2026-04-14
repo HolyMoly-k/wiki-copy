@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-family: "Roboto Slab", serif;
+    font-weight: 330;
+    line-height: 170%;
+}
+
+h1, h2 {
+    font-family: "IBM Plex Serif", serif;
+}
